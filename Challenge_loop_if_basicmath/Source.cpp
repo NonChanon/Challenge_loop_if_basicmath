@@ -28,7 +28,7 @@ int main()
 			sum1 += (i * i);
 			x += 1;
 		}
-		printf("\nAverage = %.1f", sum / (b - a + 1));
+		printf("\nAverage = %.1f", sum / x);
 		printf("\nSD = %.2f", sqrt((x * sum1 - (sum * sum)) / ((x - 1) * x)));
 	}
 	return 0;
